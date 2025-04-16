@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="translation_engines">
+        <item>@string/ml_kit_local</item>
+        <item>@string/google_translate_api</item>
+    </string-array>
+</resources>

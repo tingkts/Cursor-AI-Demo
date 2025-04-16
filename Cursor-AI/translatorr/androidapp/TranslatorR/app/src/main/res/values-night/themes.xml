@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TranslatorR" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- 启用动态颜色 -->
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- 动态颜色覆盖（在不支持动态颜色的设备上使用） -->
+        <item name="colorPrimary">#FF81D4FA</item>
+        <item name="colorPrimaryVariant">#FF0D47A1</item>
+        <item name="colorOnPrimary">#FF000000</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#FF80CBC4</item>
+        <item name="colorSecondaryVariant">#FF004D40</item>
+        <item name="colorOnSecondary">#FF000000</item>
+        <!-- Background colors -->
+        <item name="android:colorBackground">#FF121212</item>
+        <item name="colorSurface">#FF1E1E1E</item>
+        <item name="colorError">#FFE57373</item>
+        <item name="colorOnBackground">#FFFFFFFF</item>
+        <item name="colorOnSurface">#FFFFFFFF</item>
+        <item name="colorOnError">#FF000000</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- Navigation bar color -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+        <!-- Text appearance -->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.MaterialComponents.Headline1</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.MaterialComponents.Body1</item>
+    </style>
+</resources>

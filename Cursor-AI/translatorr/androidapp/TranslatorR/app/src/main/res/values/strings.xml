@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">TranslatorR</string>
+    <string name="translate_button">翻譯</string>
+    <string name="play_button">播放</string>
+    <string name="stop_button">停止</string>
+    <string name="input_hint">請輸入英文文字（單字、片語或一般文字）</string>
+    <string name="result_hint">翻譯結果將顯示在這裡</string>
+    <string name="model_ready">翻譯模型準備就緒</string>
+    <string name="model_failed">翻譯模型下載失敗: %1$s</string>
+    <string name="translating">翻譯中...</string>
+    <string name="translation_failed">翻譯失敗: %1$s</string>
+    <string name="enter_text">請輸入要翻譯的文字</string>
+    <string name="tts_not_supported">英文語音不支持</string>
+    <string name="tts_init_failed">文字轉語音初始化失敗</string>
+    <string name="repeat_count_label">重複次數:</string>
+    <string name="play_count_label">播放次數:</string>
+    <string name="playing_translation">正在播放翻譯...</string>
+    <string name="paused_translation">翻譯已暫停</string>
+    <string name="exit_app">結束</string>
+    <string name="camera_button">相機</string>
+    <string name="capture_text">掃描文字</string>
+    <string name="text_recognized">已識別文字</string>
+    <string name="google_translate_not_installed">請安裝Google翻譯應用以使用相機辨識功能</string>
+    <string name="google_translate_error">無法啟動Google翻譯: %1$s</string>
+    <string name="click_google_translate_camera">請點擊Google翻譯中的相機按鈕</string>
+    <string name="no_text_recognized">無法獲取識別文字</string>
+    <string name="google_lens_not_installed">請安裝Google Lens以使用相機文字辨識功能</string>
+    <string name="ocr_error">無法啟動相機文字辨識: %1$s</string>
+    <string name="ocr_failed">文字識別失敗: %1$s</string>
+    <string name="text_from_clipboard">從剪貼板獲取文字</string>
+    <string name="lens_not_found">找不到Google Lens或相機應用</string>
+    <string name="lens_launch_failed">無法啟動Google Lens: %1$s</string>
+    <string name="select_translation_engine">選擇翻譯引擎</string>
+    <string name="ml_kit_local">Google ML Kit (本機翻譯)</string>
+    <string name="google_translate_api">Google 翻譯 API</string>
+    <string name="google_translate_api_key">YOUR_GOOGLE_CLOUD_API_KEY</string>
+</resources>

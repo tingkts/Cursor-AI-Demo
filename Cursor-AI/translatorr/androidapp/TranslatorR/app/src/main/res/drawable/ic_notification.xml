@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- 簡化的通知圖標 -->
+    <group
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:translateX="3.6"
+        android:translateY="3.6">
+
+        <!-- 中文字元素 - 橫線 -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M4,4h8v1.5h-8z"/>
+
+        <!-- 中文字元素 - 交叉 -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M5,6l3,5l3,-5"/>
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M5,11l3,-5l3,5"/>
+
+        <!-- 藍色箭頭 -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M4,11l-3,4h6z"/>
+
+        <!-- A字母 -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M18,7l-2,10h-2l-2,-10h2.5l1,6l1,-6z"/>
+    </group>
+</vector>

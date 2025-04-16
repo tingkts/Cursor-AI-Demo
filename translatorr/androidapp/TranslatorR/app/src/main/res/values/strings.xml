@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TranslatorR</string>
+    <string name="translate_button">翻譯</string>
+    <string name="play_button">播放</string>
+    <string name="stop_button">停止</string>
+    <string name="input_hint">請輸入英文文字（單字、片語或一般文字）</string>
+    <string name="result_hint">翻譯結果將顯示在這裡</string>
+    <string name="model_ready">翻譯模型準備就緒</string>
+    <string name="model_failed">翻譯模型下載失敗: %1$s</string>
+    <string name="translating">翻譯中...</string>
+    <string name="translation_failed">翻譯失敗: %1$s</string>
+    <string name="enter_text">請輸入要翻譯的文字</string>
+    <string name="tts_not_supported">英文語音不支持</string>
+    <string name="tts_init_failed">文字轉語音初始化失敗</string>
+    <string name="repeat_count_label">重複次數:</string>
+    <string name="play_count_label">播放次數:</string>
+</resources>

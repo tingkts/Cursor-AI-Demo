@@ -1,0 +1,1 @@
+add Google Translation API key and testing function work

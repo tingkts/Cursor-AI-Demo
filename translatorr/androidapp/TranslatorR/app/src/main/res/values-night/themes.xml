@@ -1,16 +1,31 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.TranslatorR" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+    <style name="Theme.TranslatorR" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- 启用动态颜色 -->
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- 动态颜色覆盖（在不支持动态颜色的设备上使用） -->
+        <item name="colorPrimary">#FF81D4FA</item>
+        <item name="colorPrimaryVariant">#FF0D47A1</item>
+        <item name="colorOnPrimary">#FF000000</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">#FF80CBC4</item>
+        <item name="colorSecondaryVariant">#FF004D40</item>
+        <item name="colorOnSecondary">#FF000000</item>
+        <!-- Background colors -->
+        <item name="android:colorBackground">#FF121212</item>
+        <item name="colorSurface">#FF1E1E1E</item>
+        <item name="colorError">#FFE57373</item>
+        <item name="colorOnBackground">#FFFFFFFF</item>
+        <item name="colorOnSurface">#FFFFFFFF</item>
+        <item name="colorOnError">#FF000000</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- Navigation bar color -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+        <!-- Text appearance -->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.MaterialComponents.Headline1</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.MaterialComponents.Body1</item>
     </style>
 </resources>
